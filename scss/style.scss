@@ -1,0 +1,144 @@
+$font-stack: Arial, Helvetica, sans-serif;
+$light-color: #f4f4f4;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $light-color;
+    font-family: $font-stack;
+    line-height: 1.5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
+}
+
+.gameboard {
+    background-color: green;
+    border: 7px solid black;
+    border-radius: 20px;
+    width: 70%;
+    aspect-ratio: 1.7/1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .board-section {
+        // border: 2px solid black;
+        width: 30%;
+        height: 95%;
+        // flex-direction: column;
+        // justify-content: space-between;
+    }
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    button {
+        width: 75%;
+        aspect-ratio: 3/1;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        cursor: pointer;
+        border: 5px solid black;
+        border-radius: 10px;
+    }
+    .computer_name{
+        margin-top: 20px;
+        font-size: 2rem;
+        color: #f4f4f4;
+        text-transform: uppercase;
+    }
+    .player_name{
+        margin-bottom: 20px;
+        font-size: 2rem;
+        color: #f4f4f4;
+        text-transform: uppercase;
+    }
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    .card{
+        width:50%;
+        height: 40%;
+        border: 5px solid black;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.5rem;
+        background-color: #f4f4f4;
+    }
+
+    // .cards_computer{
+    //     width:50%;
+    //     height: 40%;
+    //     border: 2px solid black;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     font-size: 1.75rem;
+    // }
+    // .cards_player{
+    //     width:50%;
+    //     height: 40%;
+    //     border: 2px solid black;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     font-size: 1.75rem;
+    // }
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.5rem;
+
+    .score_computer{
+        width:50%;
+        height: 40%;
+        border: 5px solid black;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // font-size: 1.75rem;
+        background-color: #f4f4f4;
+    }
+    .score_player{
+        width:50%;
+        height: 40%;
+        border: 5px solid black;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // font-size: 1.75rem;
+        background-color: #f4f4f4;
+    }
+}

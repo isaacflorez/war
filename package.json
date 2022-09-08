@@ -1,0 +1,13 @@
+{
+  "name": "cardgame-war",
+  "version": "1.0.0",
+  "description": "This is my attempt at re creating the classic card game War Using vanilla JS and using OOP we used a card deck and logic to  implement the game features",
+  "main": "cardDeck.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}

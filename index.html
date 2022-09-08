@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" type="module" defer></script>
+</head>
+<body>
+
+    <main class="gameboard">
+        <section class="cards board-section">
+            <div class="card" id="computer">
+                <p>computer</p>
+                <p>10 <span class="red">♥</span></p>
+            </div>
+            <div class="card" id="player">
+                <p>A <span class="black">♣</span></p>
+            </div>
+        </section>
+        <section class="button board-section">
+            <p class="computer_name">computer</p>
+            <button id="flip-btn">flip</button>
+            <p class="player_name">player</p>
+        </section>
+        <section class="score board-section">
+            <div class="score_computer">
+                <p id="computer_count"></p>
+            </div>
+            <div class="score_player">
+                <p id="player_count"></p>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
